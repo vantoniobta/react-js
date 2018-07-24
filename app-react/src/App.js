@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 import Navigation from './components/Navigation';
-import { tasks } from  './tasks.json';
+import Header from './components/Header';
+import { query } from  './data.json'; 
 
 
 class App extends Component {
@@ -11,34 +12,31 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
-      tasks
+      query
+
     }
   }
 
 
   render() {
-
-    const tasks = this.state.tasks.map((taks, i) =>{
+    const query = this.state.query.map((sql, i) =>{
       return (
-        <div className="col-md-4">
-          <div className="card mt-4">
-             <div className="card-header">
-               <h5>{taks.title}</h5>
-               </div>
-               <div className="card-body">
-               <p>{taks.nU}</p>
-               </div>
-            </div>
+        <div className="col-md-3">
+               <h5>{sql.title}</h5>
+               <p>{sql.nU}</p>
           </div>
         )
    })
 
+
     return (
       <div className="App">
         <Navigation title="MMDigital"/>
+         <Header/>
+
           <div className="container">
             <div className="row mt-4">
-              { tasks}
+              { query}
             </div>
           </div>
         <img src={logo} className="App-logo" alt="logo" />

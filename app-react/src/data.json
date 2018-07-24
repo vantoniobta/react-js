@@ -1,23 +1,21 @@
 {
-	"tasks" : [
+	"query" : [
 		
 		{
 			"title"             : "usuarios unicos",
-			"nU"                : "2666526"
+			"nU"                : "2,666,526"
 		},
 		{
 			"title"             : "paginas vistas",
-			"nU"                : "12848086"
+			"nU"                : "12,848,086"
 		},
 		{
 			"title"             : "visitas",
-			"nU"                : "7854427"
+			"nU"                : "7,854,427"
 		},
 		{
 			"title"             : "tiempo promedio",
 			"nU"                : "00:02:01min"
 		}
-
-
 	]
 }

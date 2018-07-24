@@ -12,13 +12,24 @@ nav{
   padding: 20px;
 }
 
-
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
 
-.cold-md-6{
-	background-color: red;
+header{
+	height: 70vh;
+	width: 100%;
+	background-image: url('https://www.observatoriorh.com/wp-content/uploads/2018/01/desarrollador-web.jpg');
+	background-color: rgb(80,80,80);
+	background-blend-mode: soft-light; /*ajustar los background con el texto*/ 
+	padding: 1px; /*quitar espacio arriba*/ 
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column; /*pasar de filas a columnas*/ 
+	background-size: cover;
+	background-position: center;
 }
+
