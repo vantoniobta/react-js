@@ -2,23 +2,22 @@
 	"tasks" : [
 		
 		{
-			"title"          : "browser",
-			"usuarios"       : "2666526",
-			"paginas vistas" : "12848086",
-			"visitas"        : "00:02:01min"
+			"title"             : "usuarios unicos",
+			"nU"                : "2666526"
 		},
 		{
-			"title"          : "app multimedios",
-			"usuarios"       : "2666526",
-			"paginas vistas" : "12848,086",
-			"visitas"        : "00:02:01min"
+			"title"             : "paginas vistas",
+			"nU"                : "12848086"
 		},
 		{
-			"title"                : "alcance multimedios",
-			"usuarios"             : "1831547",
-			"video (VOD)"          : "1519007",
-			"contenido de visitas" : "00:39:00"
+			"title"             : "visitas",
+			"nU"                : "7854427"
+		},
+		{
+			"title"             : "tiempo promedio",
+			"nU"                : "00:02:01min"
 		}
+
 
 	]
 }

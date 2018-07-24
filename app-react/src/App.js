@@ -17,16 +17,17 @@ class App extends Component {
 
 
   render() {
+
     const tasks = this.state.tasks.map((taks, i) =>{
       return (
-        <div className="cold-md-4">
-            <div className="card mt-4">
-              <div className="card-header">
-               <h3>{taks.title}</h3>
-              </div>
-              <div className="card-body">
-              <p>{taks.usuarios}</p>
-              </div>
+        <div className="col-md-4">
+          <div className="card mt-4">
+             <div className="card-header">
+               <h5>{taks.title}</h5>
+               </div>
+               <div className="card-body">
+               <p>{taks.nU}</p>
+               </div>
             </div>
           </div>
         )
