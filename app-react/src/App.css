@@ -33,3 +33,50 @@ header{
 	background-position: center;
 }
 
+.title_header{
+	display: flex;
+	width: 200px;
+	height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	overflow: hidden;
+}
+
+ ul{
+    list-style: none;
+    padding-left: 8px;
+    animation: cambiar 7s infinite;
+  }
+
+ ul,p {
+	margin: 0;
+  }
+
+  @keyframes cambiar {
+        0%      { margin-top: 0;}
+        20%     { margin-top: 0;}
+
+        25%      { margin-top: -40px;}
+        50%      { margin-top: -40px;}
+
+        55%      { margin-top: -80px;}
+        80%      { margin-top: -80px;}
+
+        85%      { margin-top: -40px;}
+        90%      { margin-top: -40px;}
+
+        100%      { margin-top: 0;}
+
+       
+    }
+
+
+
+
+

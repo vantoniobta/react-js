@@ -4,7 +4,7 @@ import './App.css';
 
 import Navigation from './components/Navigation';
 import Header from './components/Header';
-import { query } from  './data.json'; 
+import { browser,app } from  './data.json'; 
 
 
 class App extends Component {
@@ -12,18 +12,29 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
-      query
+      browser,
+      app
 
     }
   }
 
 
   render() {
-    const query = this.state.query.map((sql, i) =>{
+
+    const browser = this.state.browser.map((sql, i) =>{
       return (
         <div className="col-md-3">
                <h5>{sql.title}</h5>
-               <p>{sql.nU}</p>
+               <p>{sql.number}</p>
+          </div>
+        )
+   })
+
+     const app = this.state.app.map((sql, i) =>{
+      return (
+        <div className="col-md-3">
+               <h5>{sql.title}</h5>
+               <p>{sql.number}</p>
           </div>
         )
    })
@@ -36,7 +47,10 @@ class App extends Component {
 
           <div className="container">
             <div className="row mt-4">
-              { query}
+              { browser}
+            </div>
+            <div className="row mt-4">
+              { app }
             </div>
           </div>
         <img src={logo} className="App-logo" alt="logo" />

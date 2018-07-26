@@ -1,21 +1,40 @@
 {
-	"query" : [
+	"browser" : [
 		
 		{
-			"title"             : "usuarios unicos",
-			"nU"                : "2,666,526"
+			"title"   : "usuarios unicos",
+			"number"  : "2,666,526"
 		},
 		{
-			"title"             : "paginas vistas",
-			"nU"                : "12,848,086"
+			"title"   : "paginas vistas",
+			"number"  : "12,848,086"
 		},
 		{
-			"title"             : "visitas",
-			"nU"                : "7,854,427"
+			"title"   : "visitas",
+			"number"  : "7,854,427"
 		},
 		{
-			"title"             : "tiempo promedio",
-			"nU"                : "00:02:01min"
+			"title"   : "tiempo promedio",
+			"number"  : "00:02:01min"
+		}
+	],
+	"app" : [
+		
+		{
+			"title"    : "usuarios unicos",
+			"number"   : "48,108"
+		},
+		{
+			"title"    : "paginas vistas",
+			"number"   : "1,651,588"
+		},
+		{
+			"title"    : "visitas",
+			"number"   : "567,745"
+		},
+		{
+			"title"    : "tiempo promedio",
+			"number"   : "00:03:43min"
 		}
 	]
 }

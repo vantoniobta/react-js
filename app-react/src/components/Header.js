@@ -4,8 +4,15 @@ class Header extends Component {
 	render(){
 		return (
 		    <header>
-	    	   <h1>Multimedios Digital</h1>
-			   <h3>2018</h3>
+		    <h1>Media Kit 2018</h1>
+		     <div className="title_header">
+	    	   <p>Multimedios</p>
+	    	   <ul>
+				   <li>Monterrey</li>
+				   <li>Laguna</li>
+				   <li>Cd Mexico</li>
+				</ul>
+			  </div>
 			</header>
 			)
 	}
