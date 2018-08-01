@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
+import Slide from 'react-reveal/Slide';
 
 import Navigation from './components/Navigation';
 import Header from './components/Header';
@@ -18,24 +21,35 @@ class App extends Component {
     }
   }
 
-
   render() {
 
     const browser = this.state.browser.map((sql, i) =>{
       return (
-        <div className="col-md-3">
-               <h5>{sql.title}</h5>
-               <p>{sql.number}</p>
-          </div>
+        <Zoom left>
+          <div className="col-md-3">
+            <div className="card">
+               <div className="card-body">
+                 <h5>{sql.title}</h5>
+                   <p>{sql.number}</p>
+                 </div>
+               </div>
+            </div>
+          </Zoom>
         )
    })
 
      const app = this.state.app.map((sql, i) =>{
       return (
-        <div className="col-md-3">
-               <h5>{sql.title}</h5>
-               <p>{sql.number}</p>
-          </div>
+        <Slide left>
+            <div className="col-md-3">
+              <div className="card">
+                 <div className="card-body">
+                   <h5>{sql.title}</h5>
+                   <p>{sql.number}</p>
+                  </div>
+                </div>
+              </div>
+          </Slide>
         )
    })
 
@@ -46,6 +60,9 @@ class App extends Component {
          <Header/>
 
           <div className="container">
+             <Fade left>
+               <h1>Example <span className="badge badge-secondary">Browser</span></h1>
+             </Fade>
             <div className="row mt-4">
               { browser}
             </div>

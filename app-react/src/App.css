@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
 .App {
   text-align: center;
 }
@@ -32,54 +33,42 @@ header{
 	background-size: cover;
 	background-position: center;
 }
-
-
-/*example*/
-/*.title_header{
-	display: flex;
-	width: 220px;
-	height: 40px;
-	font-size: 20px;
-	line-height: 40px;
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	margin: auto;
-	overflow: hidden;
-}*/
-
-
-
+.home-title{
+  color: #fad000;
+  font-weight: bold;
+}
 
 
 
 /*
-nuevo example*/
+css header responsive title desktop
+*/
 
 div.example {
 	display: flex;
-    padding: 20px;
   	overflow: hidden;
 
 }
 
 @media screen and (min-width: 601px) {
   div.example {
-    display: flex;
-	width: 800px;
-	height: 75px;
-	font-size: 58px;
+  display: flex;
+	width: 550px;
+	height: 55px;
+	font-family: 'Roboto', sans-serif;
+   color: #fff;
+  font-size: 1.15em;
+  font-weight: 900;
+  margin: 0 0 0.5em;
+	font-size: 48px;
 	line-height: 58px;
-	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
 	margin: auto;
 	overflow: hidden;
-	background-color: red;
+
   }
    .list-name{
     list-style: none;
@@ -90,37 +79,39 @@ div.example {
 	margin: 0;
   }
 }
-
   @keyframes desktop_screen {
-      0%   { margin-top: 0;}
-      20%  { margin-top: 0;}
+       0%   { margin-top: 0;}
+       5%  { margin-top: 0;}
 
-      40%  { margin-top: -40px;}
-      80%  { margin-top: -80px;}
+      10%  { margin-top: -60px;}
+      15%  { margin-top: -55px;}
+
+      20%  { margin-top: -115px;}
+      25%  { margin-top: -115px;} 
+
+      35%  { margin-top: -175px;}
+      45%  { margin-top: -175px;}
+
+      55% { margin-top: 0;}
    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
+css header responsive title mobile
+*/
 @media screen and (max-width: 600px) {
   div.example {
-    font-size: 30px;
+    display: flex;
+    font-size: 25px;
+    height: 30px;
+    width: 280px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 35px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
   }
    .list-name{
     list-style: none;
@@ -128,25 +119,44 @@ div.example {
     animation: mobile_screen 7s infinite;
   }
    ul,p {
-	margin: 0;
+  margin: 0;
   }
 
 }
 
   @keyframes mobile_screen {
       0%   { margin-top: 0;}
-      20%  { margin-top: 0;}
+      5%  { margin-top: 0;}
 
-      25%  { margin-top: -40px;}
-      50%  { margin-top: -40px;}
+      10%  { margin-top: -35px;}
+      15%  { margin-top: -35px;}
 
-      55%  { margin-top: -80px;}
-      80%  { margin-top: -80px;}
+      20%  { margin-top: -70px;}
+      25%  { margin-top: -70px;}
 
-      85%  { margin-top: -40px;}
-      90%  { margin-top: -40px;}
-      100% { margin-top: 0;}
+      35%  { margin-top: -106px;}
+      80%  { margin-top: -106px;}
+      
+      85% { margin-top: 0;}
    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
