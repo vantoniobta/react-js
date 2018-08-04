@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { browser } from  '../data.json'; 
+import Fade from 'react-reveal/Fade';
 
 
 class Desktop extends Component {
@@ -15,12 +16,10 @@ class Desktop extends Component {
        const browser = this.state.browser.map((query, i) =>{
 		  return (
 		      <div className="col-md-3">
-		          <div className="card">
-		              <div className="card-body">
+		            <Fade left>
 		                 <h5>{query.title}</h5>
 		                  <p>{query.number}</p>
-		                </div>
-		            </div>
+		            </Fade>
 		        </div>
 		   )
 	})
@@ -29,11 +28,11 @@ class Desktop extends Component {
 			<div className="container">
                  <div className="row">
                    <div className="col-md-6">
-                      <img src="https://www.servicetrade.com/wp-content/uploads/2017/12/quicksight-macbook.png" className="img-fluid" alt="browser_img" />
+                       <h3>App Multimedios</h3>
+			            <div className="row mt-8">{ browser }</div>
                     </div>
 			           <div className="col-sm-6">
-			           <h3>App Multimedios</h3>
-			              <div className="row mt-8">{ browser }</div>
+			            <img src="https://www.servicetrade.com/wp-content/uploads/2017/12/quicksight-macbook.png" className="img-fluid" alt="browser_img" />
 			            </div>
 	              </div>
 	            </div>
