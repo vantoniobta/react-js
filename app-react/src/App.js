@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import Fade from 'react-reveal/Fade';
+import './nav.css';
 import Navigation from './components/Navigation';
 import Header from './components/Header';
 import Mobile from './components/Mobile';
 import Desktop from './components/Desktop';
+import Richmedia from './components/Richmedia';
 
 
 
@@ -21,11 +22,11 @@ class App extends Component {
                   <br/>
                  </div>
                </div>
-           
+
                  <Desktop/>
-
                  <Mobile/>
-
+                 <Richmedia/>
+              
       </div>
     );
   }

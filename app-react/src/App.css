@@ -3,26 +3,11 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-nav{
-  background-color: #fff;
-  padding: 20px;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
 header{
 	height: 70vh;
 	width: 100%;
-	background-image: url('https://www.observatoriorh.com/wp-content/uploads/2018/01/desarrollador-web.jpg');
-	background-color: rgb(80,80,80);
+	background-image: url('https://farm9.staticflickr.com/8503/8317796183_dd2719c1ea_b.jpg');
+	background-color: rgb(30,90,50);
 	background-blend-mode: soft-light; /*ajustar los background con el texto*/ 
 	padding: 1px; /*quitar espacio arriba*/ 
 	color: white;
@@ -141,8 +126,9 @@ css header responsive title mobile
    }
 
 
-
-
+  #genero{
+    background-color: black;
+  }
 
 
 
