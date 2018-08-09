@@ -6,6 +6,8 @@ import Header from './components/Header';
 import Mobile from './components/Mobile';
 import Desktop from './components/Desktop';
 import Richmedia from './components/Richmedia';
+import Strategy from './components/Strategy';
+
 
 
 
@@ -15,10 +17,10 @@ class App extends Component {
       <div className="App">
         <Navigation title="MMDigital"/>
          <Header/>
-
+          <Strategy/>
              <div className="container">
                 <div className="row">
-                 <h3>Somos una agencia especializada en Marketing Digital, utilizando las mejores herramientas.</h3>
+                 <h3>AUDIENCIAS Y MÉTRICAS</h3>
                   <br/>
                  </div>
                </div>

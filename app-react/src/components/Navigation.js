@@ -13,7 +13,9 @@ class Navigation extends Component {
                  <div className="menu">
                     <ul>
                       <li><a href="">Advertising</a></li>
+                       <li><a href="">Tarifario</a></li>
                       <li><a href="">Social Media</a></li>
+                      
                     </ul>
                  </div>
               </nav>

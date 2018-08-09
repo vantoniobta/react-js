@@ -15,7 +15,7 @@
 		},
 		{
 			"title"   : "tiempo promedio",
-			"number"  : "00:02:01min"
+			"number"  : "02:01min"
 		}
 	],
 	"app" : [
@@ -34,7 +34,7 @@
 		},
 		{
 			"title"    : "tiempo promedio",
-			"number"   : "00:03:43min"
+			"number"   : "03:43min"
 		}
 	]
 }
