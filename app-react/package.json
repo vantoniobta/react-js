@@ -8,6 +8,8 @@
     "react-dom": "^16.4.1",
     "react-native-animate-number": "^0.1.2",
     "react-reveal": "^1.2.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
