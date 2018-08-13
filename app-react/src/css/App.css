@@ -4,10 +4,10 @@
 }
 
 header{
-	height: 80vh;
+	height: 100vh;
 	width: 100%;
 	background-image: url('https://farm9.staticflickr.com/8503/8317796183_dd2719c1ea_b.jpg');
-	background-color: rgb(30,90,50);
+	background-color: rgb(13,73,90);
 	background-blend-mode: soft-light; /*ajustar los background con el texto*/ 
 	padding: 1px; /*quitar espacio arriba*/ 
 	color: white;

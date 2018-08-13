@@ -5,6 +5,9 @@
   "dependencies": {
     "react": "^16.4.1",
     "react-animated-number": "^0.4.4",
+    "react-bar-chart": "^0.1.2",
+    "react-circle-progress": "^1.0.6",
+    "react-circular-progressbar": "^1.0.0",
     "react-dom": "^16.4.1",
     "react-native-animate-number": "^0.1.2",
     "react-reveal": "^1.2.2",
@@ -12,7 +15,8 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "react-switch": "^3.0.4",
-    "react-transition-group": "^2.4.0"
+    "react-transition-group": "^2.4.0",
+    "recharts": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

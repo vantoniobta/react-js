@@ -2,11 +2,15 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Route, Switch } from 'react-router-dom';
 
-import './App.css';
-import './nav.css';
+
+
+import './css/App.css';
+import './css/nav.css';
+import './css/circular.css';
 
 import Home from './Home';
-import About from './About';
+import Advertising from './Advertising';
+
 
 
 class App extends Component {
@@ -22,8 +26,8 @@ class App extends Component {
 		     </div>
 		      <div className="menu">
 		         <ul>
-		            <li><NavLink exact to="/">Advertising</NavLink></li>
-		            <li><NavLink to="/about">Tarifario</NavLink></li>
+		            <li><NavLink exact to="/">Home</NavLink></li>
+		            <li><NavLink to="advertising">Advertising</NavLink></li>
 		         </ul>
 		       </div>
 	       </nav>
@@ -42,7 +46,7 @@ class App extends Component {
 
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route  path="/about" component={About} />
+            <Route  path="/Advertising" component={Advertising} />
           </Switch>
 
       </div>
